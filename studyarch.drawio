@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T07:25:31.145Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="qWFvr3PMTujCbsqrKz5N" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T06:25:00.517Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="EBLhb3iy65GuJ0fA4X_I" version="22.0.4" type="github">
   <diagram name="공부 아키텍처" id="NBDikGrcJGQC2LffArY_">
-    <mxGraphModel dx="2131" dy="1311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,14 +130,17 @@
         <mxCell id="gBtBrwpLRqSXVQZPGn9C-1" value="&lt;b&gt;협업도구&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;spacing=2;noLabel=0;fontSize=15;strokeColor=#007FFF;" parent="1" vertex="1">
           <mxGeometry x="110" y="210" width="170" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="1gMmMZh8i2bEVqMiJXfC-1" value="지식/진행관리&#xa;(Notion)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1024px-Notion-logo.svg.png;" vertex="1" parent="1">
+        <mxCell id="1gMmMZh8i2bEVqMiJXfC-1" value="지식/진행관리&#xa;(Notion)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1024px-Notion-logo.svg.png;" parent="1" vertex="1">
           <mxGeometry x="165" y="250" width="69.64" height="69.64" as="geometry" />
         </mxCell>
-        <mxCell id="1gMmMZh8i2bEVqMiJXfC-2" value="아키텍쳐&#xa;(Drawio)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Diagrams.net_Logo.svg/800px-Diagrams.net_Logo.svg.png;" vertex="1" parent="1">
+        <mxCell id="1gMmMZh8i2bEVqMiJXfC-2" value="아키텍쳐&#xa;(Drawio)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Diagrams.net_Logo.svg/800px-Diagrams.net_Logo.svg.png;" parent="1" vertex="1">
           <mxGeometry x="165" y="365" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1gMmMZh8i2bEVqMiJXfC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C4OU6_arEyTyz7Xn0x7d-13" target="C4OU6_arEyTyz7Xn0x7d-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="htnhK65lFLZkcDakwt_--1" value="&lt;b&gt;인증인가&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;spacing=2;noLabel=0;fontSize=15;strokeColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="1269.27" y="390" width="180.74" height="108.75" as="geometry" />
+        </mxCell>
+        <mxCell id="htnhK65lFLZkcDakwt_--2" value="인증인가(keycloak)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/2/29/Keycloak_Logo.png;" vertex="1" parent="1">
+          <mxGeometry x="1321.64" y="393.5" width="76" height="76" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
