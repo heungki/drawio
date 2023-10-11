@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T06:28:38.752Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="VdQ7oLMPL1rbT62B858M" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T06:35:27.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="2CTHM1UCqJEeO4yQAjIE" version="22.0.4" type="github">
   <diagram name="공부 아키텍처" id="NBDikGrcJGQC2LffArY_">
-    <mxGraphModel dx="1243" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1356" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,7 +70,7 @@
         <mxCell id="C4OU6_arEyTyz7Xn0x7d-23" value="모니터링 UI&#xa;(Grafana)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/G/grafana-logo-15BA0AFA8A-seeklogo.com.png;" parent="1" vertex="1">
           <mxGeometry x="1240" y="794.64" width="42.32" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="C4OU6_arEyTyz7Xn0x7d-24" value="메트릭 수집&#xa;(Grafana)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/P/prometheus-logo-8EB4639A0C-seeklogo.com.png;" parent="1" vertex="1">
+        <mxCell id="C4OU6_arEyTyz7Xn0x7d-24" value="메트릭 수집&#xa;(Prometheus)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/P/prometheus-logo-8EB4639A0C-seeklogo.com.png;" parent="1" vertex="1">
           <mxGeometry x="1140" y="794.64" width="45.75" height="45.75" as="geometry" />
         </mxCell>
         <mxCell id="C4OU6_arEyTyz7Xn0x7d-25" value="어플리케이션 모니터링&#xa;(ELK)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://logowik.com/content/uploads/images/elastic-search2066.jpg;" parent="1" vertex="1">
@@ -115,7 +115,7 @@
         <mxCell id="C4OU6_arEyTyz7Xn0x7d-39" value="API 명세&#xa;(Swagger)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/S/swagger-logo-A49F73BAF4-seeklogo.com.png;" parent="1" vertex="1">
           <mxGeometry x="804.89" y="551.5" width="70.23" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="C4OU6_arEyTyz7Xn0x7d-40" value="DBDiagram" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://community.dbdiagram.io/uploads/default/original/1X/e74cdeee58b4327b87f9eac37493e349dce88050.png;" parent="1" vertex="1">
+        <mxCell id="C4OU6_arEyTyz7Xn0x7d-40" value="ERD(DBDiagram)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://community.dbdiagram.io/uploads/default/original/1X/e74cdeee58b4327b87f9eac37493e349dce88050.png;" parent="1" vertex="1">
           <mxGeometry x="380" y="816.88" width="49.72" height="49.79" as="geometry" />
         </mxCell>
         <mxCell id="C4OU6_arEyTyz7Xn0x7d-41" value="DB 관리툴&#xa;(DBeaver)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/DBeaver_logo.svg/2048px-DBeaver_logo.svg.png;" parent="1" vertex="1">
