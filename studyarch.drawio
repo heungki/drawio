@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T09:49:54.587Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="hKrgdwk5qfdOyeWt6aSL" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-14T10:39:49.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="nOenswYgwzPjpSzUr6YS" version="22.0.4" type="github">
   <diagram name="공부 아키텍처" id="NBDikGrcJGQC2LffArY_">
-    <mxGraphModel dx="2487" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2984" dy="1836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="582" y="100" width="1000" height="870" as="geometry" />
         </mxCell>
         <mxCell id="C4OU6_arEyTyz7Xn0x7d-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;spacing=2;noLabel=0;fontSize=15;strokeColor=#9933FF;" parent="1" vertex="1">
-          <mxGeometry x="602" y="145" width="950" height="805" as="geometry" />
+          <mxGeometry x="609.2" y="140" width="950" height="805" as="geometry" />
         </mxCell>
         <mxCell id="C4OU6_arEyTyz7Xn0x7d-4" value="&lt;b&gt;메세징&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;spacing=2;noLabel=0;fontSize=15;strokeColor=#007FFF;" parent="1" vertex="1">
           <mxGeometry x="1331.26" y="210" width="180.74" height="108.75" as="geometry" />
@@ -134,13 +134,16 @@
           <mxGeometry x="148" y="365" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="htnhK65lFLZkcDakwt_--1" value="&lt;b&gt;인증인가&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;spacing=2;noLabel=0;fontSize=15;strokeColor=#007FFF;" parent="1" vertex="1">
-          <mxGeometry x="637" y="570" width="180.74" height="108.75" as="geometry" />
+          <mxGeometry x="1331.27" y="368.13" width="180.74" height="279.87" as="geometry" />
         </mxCell>
-        <mxCell id="htnhK65lFLZkcDakwt_--2" value="로그인/권한(keycloak)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/2/29/Keycloak_Logo.png;" parent="1" vertex="1">
-          <mxGeometry x="689.3700000000001" y="573.5" width="76" height="76" as="geometry" />
+        <mxCell id="htnhK65lFLZkcDakwt_--2" value="로그인/권한(KeyCloak)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/2/29/Keycloak_Logo.png;" parent="1" vertex="1">
+          <mxGeometry x="1383.64" y="383.63" width="76" height="76" as="geometry" />
         </mxCell>
         <mxCell id="2o2Ar8Pg5R-kG7Tq_Z3B-1" value="이미지저장소&#xa;(Harbor)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://goharbor.io/img/logos/harbor-icon-color.png;" parent="1" vertex="1">
           <mxGeometry x="681.69" y="246.83999999999997" width="71.82" height="71.82" as="geometry" />
+        </mxCell>
+        <mxCell id="8qXqDGXETNKV51OgHpLp-3" value="KMS(Vault)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.freebiesupply.com/logos/large/2x/vault-1-logo-black-and-white.png;" vertex="1" parent="1">
+          <mxGeometry x="1383.64" y="540" width="80" height="75.6" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
